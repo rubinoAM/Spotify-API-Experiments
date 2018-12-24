@@ -5,11 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Spotify API Experiment #1</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
 <body>
-    
+    <div class="container">
+        <div class="search">
+            <img src="notes.svg" alt=""/>
+            <form action="">
+                <input id="search" type="search" value="" placeholder="Put some band names in here (separated by commas, by the by).">
+                <input type="submit" id="submit" value="Create"/>
+            </form>
+        </div>
+        <div class="results">
+            <div class="loader">
+                <div class="inner-circle"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
