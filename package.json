@@ -1,0 +1,22 @@
+{
+  "name": "spotify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubinoAM/Spotify-API-Experiments.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rubinoAM/Spotify-API-Experiments/issues"
+  },
+  "homepage": "https://github.com/rubinoAM/Spotify-API-Experiments#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
