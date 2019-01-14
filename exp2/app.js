@@ -1,8 +1,8 @@
-var express = require('./express');
-var request = require('./request');
-var cors = require('./cors');
-var querystring = require('./querystring');
-var cookieParser = require('./cookie-parser');
+var express = require('./node_modules/express');
+var request = require('./node_modules/request');
+var cors = require('./node_modules/cors');
+var querystring = require('./node_modules/querystring');
+var cookieParser = require('./node_modules/cookie-parser');
 
 var client_id = '09d5724f0e7a41a599c1f7b00ade3a22';
 var client_secret = '09871ba3b22a4ddf8819a90fb0b8197e';
